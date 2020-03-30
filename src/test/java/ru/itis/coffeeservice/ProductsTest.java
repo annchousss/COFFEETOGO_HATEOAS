@@ -10,6 +10,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.web.servlet.MockMvc;
+import ru.itis.coffeeservice.models.Category;
 import ru.itis.coffeeservice.models.Product;
 import ru.itis.coffeeservice.models.ProductStatus;
 import ru.itis.coffeeservice.services.ProductService;
@@ -37,7 +38,7 @@ public class ProductsTest {
 
     @BeforeEach
     public void setUp() {
-        when(productService.publish(1L)).thenReturn(postedProduct());
+        when(productService.post(1L)).thenReturn(postedProduct());
     }
 
     @Test
@@ -66,4 +67,5 @@ public class ProductsTest {
                 .price(3)
                 .build();
     }
+
 }

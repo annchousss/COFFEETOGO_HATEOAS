@@ -12,9 +12,9 @@ public class ProductServiceImpl implements ProductService {
     private ProductRepository productRepository;
 
     @Override
-    public Product publish(Long id) {
+    public Product post(Long id) {
         Product p  = productRepository.findById(id).orElseThrow(IllegalArgumentException::new);
-        p.publishProduct();
+        p.postProduct();
         productRepository.save(p);
         return p;
     }

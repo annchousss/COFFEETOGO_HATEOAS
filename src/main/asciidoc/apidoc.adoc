@@ -1,11 +1,13 @@
-= Product API description
+= CoffeeService API description
 
 == Methods
 
 |===
 |Method | Use
 |`PUT`
-|Обновить сущность или ее состояние
+|Update entity or its state
+|`DELETE`
+|Delete entity
 |===
 
 === Product posting
@@ -23,3 +25,20 @@ include::{snippets}/post_product/http-response.adoc[]
 .response-fields
 
 include::{snippets}/post_product/response-fields.adoc[]
+
+=== Categories cleansing
+
+You can remove all products with status *DELETED* from a category
+
+.request
+
+include::{snippets}/remove_deleted_products/http-request.adoc[]
+
+.response
+
+include::{snippets}/remove_deleted_products/http-response.adoc[]
+
+.response-fields
+
+include::{snippets}/remove_deleted_products/response-fields.adoc[]
+

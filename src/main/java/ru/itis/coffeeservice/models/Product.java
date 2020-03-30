@@ -38,7 +38,7 @@ public class Product {
     @Enumerated(EnumType.STRING)
     private ProductStatus status;
 
-    public void publishProduct() {
+    public void postProduct() {
         if(this.status.equals(ProductStatus.DELETED)) {
             throw new IllegalArgumentException();
         } else if (this.status.equals(ProductStatus.DRAFT)) {

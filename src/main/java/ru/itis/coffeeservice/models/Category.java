@@ -26,4 +26,8 @@ public class Category {
 
     @OneToMany(mappedBy = "category")
     private List<Product> products;
+
+    public void removeAllDeletedProducts() {
+        this.products.removeIf(p -> p.getStatus().equals(ProductStatus.DELETED));
+    }
 }

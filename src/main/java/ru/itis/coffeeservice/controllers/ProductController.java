@@ -21,7 +21,7 @@ public class ProductController {
     ResponseEntity<?> publish(@PathVariable("product-id") Long productId) {
         return ResponseEntity.ok(
                 new EntityModel<>(
-                        productService.publish(productId)));
+                        productService.post(productId)));
     }
 
 }
