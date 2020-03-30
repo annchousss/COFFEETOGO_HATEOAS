@@ -1,0 +1,9 @@
+[source,options="nowrap"]
+----
+{
+  "price" : 3.0,
+  "name" : "Coffee Moccachino",
+  "description" : "qwerty",
+  "status" : "DELETED"
+}
+----

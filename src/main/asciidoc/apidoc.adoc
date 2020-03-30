@@ -1,0 +1,25 @@
+= Product API description
+
+== Methods
+
+|===
+|Method | Use
+|`PUT`
+|Обновить сущность или ее состояние
+|===
+
+=== Product posting
+
+You can post products with *PUBLISHED* status
+
+.request
+
+include::{snippets}/post_product/http-request.adoc[]
+
+.response
+
+include::{snippets}/post_product/http-response.adoc[]
+
+.response-fields
+
+include::{snippets}/post_product/response-fields.adoc[]
