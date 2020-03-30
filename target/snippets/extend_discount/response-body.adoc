@@ -1,0 +1,8 @@
+[source,options="nowrap"]
+----
+{
+  "ordersNumber" : 10,
+  "discountPercent" : 5,
+  "status" : "VALID"
+}
+----

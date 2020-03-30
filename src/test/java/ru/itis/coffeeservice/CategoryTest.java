@@ -44,7 +44,7 @@ public class CategoryTest {
 
     @Test
     public void testRemoveProductsFromCategory() throws Exception {
-        mockMvc.perform(delete("/categories/1/remove"))
+        mockMvc.perform(delete("/categories/1/remove")).andDo(print())
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.name").value(clearCategory().getName()))
                 .andExpect(jsonPath("$.description").value(clearCategory().getDescription()))

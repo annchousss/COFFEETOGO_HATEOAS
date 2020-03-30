@@ -42,3 +42,18 @@ include::{snippets}/remove_deleted_products/http-response.adoc[]
 
 include::{snippets}/remove_deleted_products/response-fields.adoc[]
 
+=== Discount card extending
+
+You can extend discount card with status *EXPIRED*
+
+.request
+
+include::{snippets}/extend_discount/http-request.adoc[]
+
+.response
+
+include::{snippets}/extend_discount/http-response.adoc[]
+
+.response-fields
+
+include::{snippets}/extend_discount/response-fields.adoc[]

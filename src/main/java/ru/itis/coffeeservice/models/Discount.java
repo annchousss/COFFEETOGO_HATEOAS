@@ -24,4 +24,15 @@ public class Discount {
     @JoinColumn(name = "customer_id")
     private Customer customer;
 
+    @Enumerated(EnumType.STRING)
+    private DiscountStatus status;
+
+    public void extendCard() {
+        if(this.status.equals(DiscountStatus.VALID)) {
+            throw new IllegalArgumentException();
+        } else if (this.status.equals(DiscountStatus.EXPIRED)) {
+            this.status = DiscountStatus.VALID;
+        }
+    }
+
 }

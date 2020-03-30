@@ -1,0 +1,16 @@
+|===
+|Path|Type|Description
+
+|`+ordersNumber+`
+|`+Number+`
+|Number of customer's orders
+
+|`+discountPercent+`
+|`+Number+`
+|Percentage discount
+
+|`+status+`
+|`+String+`
+|Status of the discount card
+
+|===

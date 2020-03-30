@@ -1,6 +1,8 @@
+ru\itis\coffeeservice\services\DiscountService.class
 ru\itis\coffeeservice\models\Supplier.class
 ru\itis\coffeeservice\services\ProductService.class
 ru\itis\coffeeservice\models\OrderItem.class
+ru\itis\coffeeservice\models\DiscountStatus.class
 ru\itis\coffeeservice\repositories\LoginRepository.class
 ru\itis\coffeeservice\models\Product$ProductBuilder.class
 ru\itis\coffeeservice\repositories\CategoryRepository.class
@@ -24,8 +26,11 @@ ru\itis\coffeeservice\controllers\CategoryController.class
 ru\itis\coffeeservice\models\ProductStatus.class
 ru\itis\coffeeservice\models\Product.class
 ru\itis\coffeeservice\repositories\SupplierRepository.class
+ru\itis\coffeeservice\config\DiscountRepresentationProsessor.class
 ru\itis\coffeeservice\CoffeeserviceApplication.class
 ru\itis\coffeeservice\models\Customer$CustomerBuilder.class
 ru\itis\coffeeservice\models\OrderItem$OrderItemBuilder.class
 ru\itis\coffeeservice\repositories\OrderRepository.class
+ru\itis\coffeeservice\controllers\DiscountController.class
 ru\itis\coffeeservice\models\Category.class
+ru\itis\coffeeservice\services\DiscountServiceImpl.class

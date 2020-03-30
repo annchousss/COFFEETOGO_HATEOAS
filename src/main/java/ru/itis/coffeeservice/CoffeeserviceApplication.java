@@ -130,11 +130,13 @@ public class CoffeeserviceApplication {
         Discount discount1 = Discount.builder()
                 .ordersNumber(12)
                 .discountPercent(10)
+                .status(DiscountStatus.VALID)
                 .build();
 
         Discount discount2 = Discount.builder()
                 .ordersNumber(20)
                 .discountPercent(10)
+                .status(DiscountStatus.EXPIRED)
                 .build();
         /* discounts */
 
