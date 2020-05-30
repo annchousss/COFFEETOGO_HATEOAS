@@ -1,11 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf4ae04c-c2ea-424c-bb6a-66b338ecff36" name="Default Changelist" comment="" />
+    <list default="true" id="cf4ae04c-c2ea-424c-bb6a-66b338ecff36" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_0_9_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webflux_5_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_multipart_parser_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_stream_storage_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itis/coffeeservice/clients/InfoInfoUsersApiClientWebClientImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itis/coffeeservice/clients/InfoUsersClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itis/coffeeservice/controllers/WebFluxUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itis/coffeeservice/entries/InfoUsers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itis/coffeeservice/entries/InfoUsersRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itis/coffeeservice/entries/InfoUsersResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itis/coffeeservice/rabbitmq/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itis/coffeeservice/rabbitmq/MainClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itis/coffeeservice/rabbitmq/MainServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itis/coffeeservice/rabbitmq/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itis/coffeeservice/services/UsersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itis/coffeeservice/services/UsersServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeeservice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/coffeeservice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -15,7 +70,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZqCVF9JYiXXO0JBmtis5Os01mj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -27,11 +88,32 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/ru/itis/coffeeservice/rabbitmq" />
   </component>
-  <component name="RunManager" selected="JUnit.DiscountTest">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\annchousss-COFFEETOGO_HATEOAS\src\main\java\ru\itis\coffeeservice\rabbitmq" />
+      <recent name="C:\Users\user\Desktop\annchousss-COFFEETOGO_HATEOAS\src\main\java\ru\itis\coffeeservice\services" />
+      <recent name="C:\Users\user\Desktop\annchousss-COFFEETOGO_HATEOAS\src\main\java\ru\itis\coffeeservice" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MainServer">
+    <configuration name="MainServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.itis.coffeeservice.rabbitmq.MainServer" />
+      <module name="coffeeservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.itis.coffeeservice.rabbitmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CategoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coffeeservice" />
       <extension name="coverage">
@@ -87,6 +169,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainServer" />
         <item itemvalue="JUnit.DiscountTest" />
         <item itemvalue="JUnit.CategoryTest" />
         <item itemvalue="JUnit.ProductsTest.productPublishTest" />
@@ -106,6 +189,11 @@
       <workItem from="1585557268618" duration="4390000" />
       <workItem from="1585566188930" duration="878000" />
       <workItem from="1585567411214" duration="3562000" />
+      <workItem from="1589896563754" duration="710000" />
+      <workItem from="1590055929643" duration="1810000" />
+      <workItem from="1590234097915" duration="19000" />
+      <workItem from="1590832644187" duration="2538000" />
+      <workItem from="1590835195463" duration="260000" />
     </task>
     <servers />
   </component>
@@ -117,42 +205,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="766" y="237" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585568512469" />
-    <state width="1877" height="21" key="GridCell.Tab.0.bottom" timestamp="1585586163539">
+    <state x="773" y="279" key="FileChooserDialogImpl" timestamp="1590234110640">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="21" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585586163539" />
-    <state width="1877" height="21" key="GridCell.Tab.0.center" timestamp="1585586163539">
+    <state x="773" y="279" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590234110640" />
+    <state width="1538" height="247" key="GridCell.Tab.0.bottom" timestamp="1590835299480">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="21" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585586163539" />
-    <state width="1877" height="21" key="GridCell.Tab.0.left" timestamp="1585586163538">
+    <state width="1538" height="247" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590835299480" />
+    <state width="1538" height="247" key="GridCell.Tab.0.center" timestamp="1590835299480">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="21" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585586163538" />
-    <state width="1877" height="21" key="GridCell.Tab.0.right" timestamp="1585586163539">
+    <state width="1538" height="247" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590835299480" />
+    <state width="1538" height="247" key="GridCell.Tab.0.left" timestamp="1590835299480">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="21" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585586163539" />
-    <state width="1877" height="495" key="GridCell.Tab.1.bottom" timestamp="1585569495563">
+    <state width="1538" height="247" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590835299480" />
+    <state width="1538" height="247" key="GridCell.Tab.0.right" timestamp="1590835299480">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="495" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585569495563" />
-    <state width="1877" height="495" key="GridCell.Tab.1.center" timestamp="1585569495562">
+    <state width="1538" height="247" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590835299480" />
+    <state width="1538" height="453" key="GridCell.Tab.1.bottom" timestamp="1590835280075">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="495" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585569495562" />
-    <state width="1877" height="495" key="GridCell.Tab.1.left" timestamp="1585569495562">
+    <state width="1538" height="453" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590835280075" />
+    <state width="1538" height="453" key="GridCell.Tab.1.center" timestamp="1590835280075">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="495" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585569495562" />
-    <state width="1877" height="495" key="GridCell.Tab.1.right" timestamp="1585569495563">
+    <state width="1538" height="453" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590835280075" />
+    <state width="1538" height="453" key="GridCell.Tab.1.left" timestamp="1590835280075">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="495" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585569495563" />
-    <state x="1080" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1585567415025">
+    <state width="1538" height="453" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590835280075" />
+    <state width="1538" height="453" key="GridCell.Tab.1.right" timestamp="1590835280075">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1080" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585567415025" />
+    <state width="1538" height="453" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590835280075" />
+    <state x="1080" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1590234098498">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1080" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590234098498" />
     <state x="668" y="147" key="refactoring.ChangeSignatureDialog" timestamp="1585558043260">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
