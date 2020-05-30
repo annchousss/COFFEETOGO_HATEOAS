@@ -6,8 +6,6 @@ import org.springframework.context.ApplicationContext;
 import ru.itis.coffeeservice.models.*;
 import ru.itis.coffeeservice.repositories.*;
 
-import java.util.List;
-
 import static java.util.Arrays.asList;
 
 @SpringBootApplication

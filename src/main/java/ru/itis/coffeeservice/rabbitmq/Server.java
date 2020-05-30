@@ -15,13 +15,13 @@ import java.util.UUID;
 public class Server {
     private final static String REQUEST_QUEUE_NAME = "calls";
 
-    private Long downLoadFileAndGetSize(String fileUrl) {
+    private Long downLoadPicture(String fileUrl) {
         try {
             URL url = new URL(fileUrl);
             URLConnection urlConnection = url.openConnection();
             long size = urlConnection.getContentLength();
             ReadableByteChannel readableByteChannel = Channels.newChannel(url.openStream());
-            File output = new File("downloaded/" + UUID.randomUUID().toString() + fileUrl.substring(fileUrl.lastIndexOf(".")));
+            File output = new File("src/main/java/ru/itis/coffeeservice/rabbitmq/coffeeItems/" + UUID.randomUUID().toString() + fileUrl.substring(fileUrl.lastIndexOf(".")));
             FileOutputStream fileOutputStream = new FileOutputStream(output);
             fileOutputStream.getChannel()
                     .transferFrom(readableByteChannel, 0, Long.MAX_VALUE);
@@ -51,7 +51,7 @@ public class Server {
                         .build();
 
                 String fileUrl = new String(message.getBody());
-                Long fileSize = downLoadFileAndGetSize(fileUrl);
+                Long fileSize = downLoadPicture(fileUrl);
                 channel.basicPublish("", message.getProperties().getReplyTo(), replyProperties,
                         fileSize.toString().getBytes());
                 channel.basicAck(message.getEnvelope().getDeliveryTag(), false);
