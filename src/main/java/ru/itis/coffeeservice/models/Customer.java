@@ -24,12 +24,6 @@ public class Customer {
     private String phone;
     private String email;
 
-//    @ManyToMany
-//    @JoinTable(name = "customer_address",
-//            joinColumns = @JoinColumn(name = "customer_id", referencedColumnName = "id"),
-//            inverseJoinColumns = @JoinColumn(name = "address_id", referencedColumnName = "id"))
-//    private List<Address> addresses;
-
     @OneToOne
     @JoinColumn(name = "discount_id")
     private Discount discount;

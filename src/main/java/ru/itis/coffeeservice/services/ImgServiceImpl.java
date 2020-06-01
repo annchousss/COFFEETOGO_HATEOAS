@@ -4,7 +4,7 @@ import org.springframework.stereotype.Service;
 import ru.itis.coffeeservice.rabbitmq.Client;
 
 @Service
-public class PdfServiceImpl implements PdfService {
+public class ImgServiceImpl implements ImgService {
 
     public void downloadPic(String item) {
         Client client = new Client();

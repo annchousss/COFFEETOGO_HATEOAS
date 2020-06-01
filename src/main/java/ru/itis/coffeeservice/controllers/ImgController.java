@@ -4,17 +4,17 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import ru.itis.coffeeservice.services.PdfServiceImpl;
+import ru.itis.coffeeservice.services.ImgServiceImpl;
 
 @RestController
-public class PdfController {
+public class ImgController {
 
     @Autowired
-    private PdfServiceImpl pdfService;
+    private ImgServiceImpl imgService;
 
     @GetMapping(value = "/download-pic")
     public String getDownL(@RequestParam(value = "item") String url) {
-        pdfService.downloadPic(url);
+        imgService.downloadPic(url);
         return "The item is downloaded successfully!";
     }
 

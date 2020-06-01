@@ -1,5 +1,5 @@
 package ru.itis.coffeeservice.services;
 
-public interface PdfService {
+public interface ImgService {
     void downloadPic(String item);
 }
